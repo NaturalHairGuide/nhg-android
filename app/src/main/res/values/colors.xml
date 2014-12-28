@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="actionbar_background">#AA5585</color>
+    <color name="actionbar_pressed_background">#CD88AF</color>
+    <color name="app_background_color">#ffd1aa</color>
+
+    <color name="primary_button_background">#3caa6c39</color>
+    <color name="primary_button_pressed_background">#3c804515</color>
+    <color name="secondary_button_background">#AA3939</color>
+    <color name="secondary_button_pressed_background">#801515</color>
+
+    <color name="card_pressed_background">#FFD1AA</color>
+
+    <color name="login_background_color">#AA5585</color>
+
+    <color name="dictionary_term_item_pressed_background">#AAAAAA</color>
+    <color name="menu_list_item_pressed_background">#AA5585</color>
+    <color name="menu_background_color">#882D61</color>
+
+    <color name="hair_product_section_header_background">#FFD1AA</color>
+
+    <color name="profile_header_background_color">#AA6C39</color>
+
+    <color name="primary_color">#AA3939</color>
+    <color name="primary_dark_color">#550000</color>
+    <color name="secondary_color_one">#AA6C39</color>
+    <color name="secondary_color_two">#882D61</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>

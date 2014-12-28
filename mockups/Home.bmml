@@ -1,0 +1,40 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1795" measuredH="675" mockupW="1578" mockupH="616">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::iPhone" x="217" y="81" w="-1" h="-1" measuredW="282" measuredH="573" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <model>IPhone5</model>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::iPad" x="638" y="59" w="916" h="616" measuredW="916" measuredH="616" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <orientation>landscape</orientation>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="__group__" x="729" y="109" w="264" h="537" measuredW="264" measuredH="537" zOrder="2" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::List" x="0" y="0" w="264" h="537" measuredW="100" measuredH="126" zOrder="0" locked="false" isInGroup="5">
+          <controlProperties>
+            <text/>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Menu" x="0" y="0" w="264" h="-1" measuredW="150" measuredH="109" zOrder="1" locked="false" isInGroup="5">
+          <controlProperties>
+            <selectedIndex>0</selectedIndex>
+            <text>Home%0A%3D%0AHair%20Products%0A%3D%0ADictionary%0A%3D%0AMy%20Profile</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Menu" x="0" y="454" w="264" h="-1" measuredW="150" measuredH="83" zOrder="2" locked="false" isInGroup="5">
+          <controlProperties>
+            <selectedIndex>-1</selectedIndex>
+            <text>Settings%0A%3D%0AHelp%0A%3D%0AFeedback</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::StickyNote" x="1686" y="114" w="-1" h="-1" measuredW="109" measuredH="123" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Length%20Check%0ALast%20checkup</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

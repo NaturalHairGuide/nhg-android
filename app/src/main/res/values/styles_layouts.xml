@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Home">
+        <item name="android:background">@color/app_background_color</item>
+    </style>
+
+    <style name="Card" parent="CardView.Light">
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:layout_marginRight">30dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+    </style>
+
+    <style name="CardTitle">
+        <item name="android:padding">10dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="CardDetailsContainer">
+        <item name="android:padding">15dp</item>
+    </style>
+
+    <style name="CardDescription">
+        <item name="android:padding">10dp</item>
+        <item name="android:gravity">left</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Login">
+        <item name="android:paddingLeft">40dp</item>
+        <item name="android:paddingRight">40dp</item>
+        <item name="android:background">@drawable/login_background</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
+    <style name="Login_Input">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+    </style>
+
+    <style name="QuestionnaireView">
+        <item name="android:padding">30dp</item>
+        <item name="android:background">@drawable/login_background</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:maxWidth">100dp</item>
+    </style>
+    <style name="Question">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingBottom">15dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Menu">
+        <item name="android:background">@color/menu_background_color</item>
+    </style>
+
+    <style name="MainMenu">
+        <item name="android:divider">@android:color/transparent</item>
+    </style>
+
+    <style name="SecondaryMenu" parent="MainMenu">
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="MenuItem">
+        <item name="android:paddingLeft">25dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/menu_list_item_states</item>
+    </style>
+
+    <style name="MenuItemIcon">
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="MenuItemText">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="SecondaryMenuItemText" parent="MenuItemText">
+        <item name="android:textSize">16sp</item>
+        <item name="android:padding">0dp</item>
+    </style>
+
+    <style name="DictionaryList">
+        <item name="android:background">@color/app_background_color</item>
+    </style>
+
+    <style name="DictionaryTerm">
+        <item name="android:padding">20dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/dictionary_term_item_states</item>
+    </style>
+
+    <style name="DictionaryMainImage">
+        <item name="android:layout_margin">10dp</item>
+    </style>
+
+    <style name="DictionaryTerm_Definition">
+        <item name="android:layout_margin">20dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="HairProduct_Types">
+    </style>
+
+    <style name="HairProduct_Button">
+        <item name="android:layout_height">100dp</item>
+        <item name="android:gravity">bottom|right</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">#666666</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <style name="HairProduct_Section">
+    </style>
+
+    <style name="HairProduct_SectionHeader">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:background">@color/hair_product_section_header_background</item>
+    </style>
+
+    <style name="HairProduct_List">
+        <item name="android:padding">20dp</item>
+    </style>
+
+    <style name="HairProduct_Item">
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="Profile_Header">
+        <item name="android:layout_height">100dp</item>
+        <item name="android:background">@color/profile_header_background_color</item>
+    </style>
+
+    <style name="Profile_HeaderText">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Profile_Username" parent="Profile_HeaderText">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="HairProduct_Description"></style>
+</resources>

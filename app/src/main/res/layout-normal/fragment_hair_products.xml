@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/HairProduct_Types">
+
+    <mobile.lynn.com.naturalhairguide.view.CustomButtonView
+        android:id="@+id/cleansing"
+        android:layout_width="match_parent"
+        android:text="@string/cleansing"
+        style="@style/HairProduct_Button"/>
+
+    <mobile.lynn.com.naturalhairguide.view.CustomButtonView
+        android:id="@+id/conditioner"
+        android:layout_width="match_parent"
+        android:text="@string/conditioner"
+        style="@style/HairProduct_Button" />
+
+    <mobile.lynn.com.naturalhairguide.view.CustomButtonView
+        android:id="@+id/styling"
+        android:layout_width="match_parent"
+        android:text="@string/styling"
+        style="@style/HairProduct_Button" />
+
+</LinearLayout>

@@ -1,0 +1,34 @@
+<!--<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:fab="http://schemas.android.com/apk/res-auto"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--<View-->
+            <!--style="@style/Profile_Header"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:layout_weight="1" />-->
+
+        <mobile.lynn.com.naturalhairguide.view.OverscrollListView
+            android:id="@+id/profile_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <!--<com.melnykov.fab.FloatingActionButton-->
+        <!--android:id="@+id/fab"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="bottom|right"-->
+        <!--android:layout_margin="16dp"-->
+        <!--android:src="@android:drawable/ic_input_add"-->
+        <!--fab:fab_colorNormal="@color/actionbar_background"-->
+        <!--fab:fab_colorPressed="@color/actionbar_pressed_background"-->
+        <!--fab:fab_colorRipple="@color/actionbar_background" />-->
+<!--</FrameLayout>-->

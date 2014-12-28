@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mobile.lynn.com.naturalhairguide.view.CustomScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/profile_scroll_view"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@color/white"/>
+
+        <RelativeLayout
+            android:id="@+id/header"
+            style="@style/Profile_Header"
+            android:layout_width="match_parent"
+            android:layout_gravity="end"
+            android:layout_below="@+id/view">
+
+            <mobile.lynn.com.naturalhairguide.view.CustomTextView
+                android:id="@+id/username"
+                style="@style/Profile_Username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/member_since" />
+
+            <mobile.lynn.com.naturalhairguide.view.CustomTextView
+                android:id="@+id/member_since"
+                style="@style/Profile_HeaderText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:text="November 1, 2104" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/header"
+            android:orientation="vertical"/>
+
+        <ImageButton
+            android:id="@+id/add_button"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="end|bottom"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:src="@android:drawable/ic_input_add"/>
+
+    </RelativeLayout>
+
+</mobile.lynn.com.naturalhairguide.view.CustomScrollView>

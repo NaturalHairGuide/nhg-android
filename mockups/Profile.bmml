@@ -1,0 +1,54 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1554" measuredH="675" mockupW="1337" mockupH="616">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::iPad" x="638" y="59" w="916" h="616" measuredW="916" measuredH="616" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <orientation>landscape</orientation>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::iPhone" x="217" y="81" w="-1" h="-1" measuredW="282" measuredH="573" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <model>IPhone5</model>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="__group__" x="729" y="109" w="264" h="537" measuredW="264" measuredH="537" zOrder="2" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::List" x="0" y="0" w="264" h="537" measuredW="100" measuredH="126" zOrder="0" locked="false" isInGroup="2">
+          <controlProperties>
+            <text/>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Menu" x="0" y="0" w="264" h="-1" measuredW="150" measuredH="109" zOrder="1" locked="false" isInGroup="2">
+          <controlProperties>
+            <selectedIndex>0</selectedIndex>
+            <text>Home%0A%3D%0AHair%20Products%0A%3D%0ADictionary%0A%3D%0ASettings</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Menu" x="0" y="0" w="264" h="-1" measuredW="150" measuredH="109" zOrder="2" locked="false" isInGroup="2">
+          <controlProperties>
+            <selectedIndex>6</selectedIndex>
+            <text>Home%0A%3D%0AHair%20Products%0A%3D%0ADictionary%0A%3D%0AMy%20Profile</text>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Menu" x="0" y="454" w="264" h="-1" measuredW="150" measuredH="83" zOrder="3" locked="false" isInGroup="2">
+          <controlProperties>
+            <selectedIndex>-1</selectedIndex>
+            <text>Settings%0A%3D%0AHelp%0A%3D%0AFeedback</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Canvas" x="243" y="180" w="227" h="53" measuredW="100" measuredH="70" zOrder="3" locked="false" isInGroup="-1"/>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::Paragraph" x="260" y="289" w="197" h="80" measuredW="275" measuredH="80" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>12</size>
+        <text>*Hair%20Type%3A*%204C%0A*Last%20Length%20Check%3A*%208%20Sep%202012</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::RoundButton" x="260" y="195" w="80" h="79" measuredW="32" measuredH="32" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::Canvas" x="243" y="233" w="228" h="339" measuredW="100" measuredH="70" zOrder="4" locked="false" isInGroup="-1"/>
+  </controls>
+</mockup>

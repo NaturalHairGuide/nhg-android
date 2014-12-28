@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Natural Hair Guide</string>
+    <string name="title_activity_main">Natural Hair Guide</string>
+    <string name="title_activity_hair_products">Hair Products</string>
+    <string name="title_activity_dictionary">Dictionary</string>
+    <string name="title_activity_profile">My Profile</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_help">Help</string>
+
+    <string name="search_dictionary">Search…</string>
+    <string name="drawer_close">close menu</string>
+    <string name="drawer_open">open menu</string>
+
+    <string name="hair_products_cleansing">Cleansing</string>
+    <string name="hair_products_conditioner">Conditioner</string>
+    <string name="hair_products_styling">Styling</string>
+    <string name="restart">Restart</string>
+    <string name="skip">Skip</string>
+    <string name="cleansing">Cleansing</string>
+    <string name="conditioner">Conditioner</string>
+    <string name="styling">Styling</string>
+    <string name="search_title">Search</string>
+    <string name="search_hint">Search…</string>
+
+    <array name="menu">
+        <item>Home</item>
+        <item>Dictionary</item>
+        <item>My Profile</item>
+    </array>
+
+    <array name="menu_icons">
+        <item>ic_home</item>
+        <item>ic_dictionary</item>
+        <item>ic_profile</item>
+    </array>
+
+    <array name="second_menu">
+        <item>Settings</item>
+        <item>Share</item>
+        <item>Log out</item>
+    </array>
+
+</resources>
